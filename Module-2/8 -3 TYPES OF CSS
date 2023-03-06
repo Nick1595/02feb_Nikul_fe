@@ -1,0 +1,34 @@
+--> 3 ways to add CSS to your HTML web page
+
+Styles can be added to any HTML page in three ways: Inline, Internal, and External.
+
+ 1. Inline CSS
+
+For inline styles, we use the style attribute of the HTML tags. CSS is passed as a string to the style attribute which adds the styles to the tags.
+
+For example: If we want to make our web page background blue with inline CSS, we can write something like this:
+<body style="background-color: blue"></body>
+
+2.  Internal CSS
+
+For Internal CSS, a style tag is used in which all the styles related to the webpage are added. This style tag is added in the head tag of the page so that the styles are added even before the HTML document is rendered.
+
+For example: If we want to make our web page background as blue with internal css, we can right something like this:
+<head>
+    <style>
+      body {
+        background-color: blue;
+      }
+    </style>
+ </head>
+
+ 3. External CSS
+
+In external CSS we use a separate file with a .css extension where we write all our styles. This CSS file can be used by multiple webpages by using a link tag which is added under the head tag.
+
+For example: If we want to make our web page background as blue with external CSS, we have to make changes in two files.
+
+First, we will add all our styles to our CSS file, for our example, it will be styles.css
+body{
+     background-color: blue;
+}
