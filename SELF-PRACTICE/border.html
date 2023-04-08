@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Borders</title>
+  <style>
+    div{
+            height: 200px;
+            width: auto;
+            background: powderblue;
+            margin: 10px;
+            /* border: 10px solid; */
+            border-width: 10px;
+            border-color: darkblue;
+    }
+    .A1{
+      border-style: dashed;
+      border-radius: 10px 20px 30px 40px;
+    }
+    .A2{
+      border-style: double;
+    }
+    .A3{
+      border-style: groove;
+    }
+    .A4{
+      border-style: ridge;
+    }
+    .A5{
+      border-style: inset;
+    }
+    .A6{
+      border-style: outset;
+    }
+    .A7{
+      border-style: dotted;
+    }
+    .A8{
+      border-style: hidden; 
+      transition: border-style 1ms, background-colour 2ms ;
+    }
+    .A8:hover{
+      border-style: solid;
+      border-color: lightcoral;
+    }
+  </style>
+</head>
+<body>
+  <div class="A1"></div>
+  <div class="A2"></div>
+  <div class="A3"></div>
+  <div class="A4"></div>
+  <div class="A5"></div>
+  <div class="A6"></div>
+  <div class="A7"></div>
+  <div class="A8"></div>
+</body>
+</html>
