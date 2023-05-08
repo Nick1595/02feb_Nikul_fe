@@ -1,0 +1,11 @@
+thead{
+  background-color: rgb(174, 102, 255);
+}
+
+
+tbody{
+  background-color: bisque;
+}
+tfoot{
+  background-color: blanchedalmond;
+}

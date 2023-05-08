@@ -1,0 +1,13 @@
+fieldset{
+  text-align: center;
+   height: 50vh;
+   width: 280px;
+   border: 2px solid rgb(57, 59, 62);
+   border-radius: 15px;
+   background-color: rgb(174, 226, 250);
+
+ }
+ body{
+   margin: 200px;
+   background-color: rgb(217, 238, 255);
+ }

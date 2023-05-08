@@ -1,0 +1,15 @@
+body{
+  background-color: black;
+  
+     
+   }
+   fieldset{
+     margin: 270px;
+     float: inline-start;
+     background-color: greenyellow;
+     /* width: 100px; */
+    width: 450px;
+   }
+   h1{
+     color: red;
+   }

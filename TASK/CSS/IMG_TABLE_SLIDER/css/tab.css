@@ -1,0 +1,18 @@
+body {
+  border: 5px solid black;
+  border-radius: 5px;
+  margin: 20px 150px;
+  padding: 10px 30px;
+  background-color: rgb(233, 214, 255);
+}
+fieldset {
+  border: 50px;
+  border-radius: 10px 10px;
+  width: 20px;
+
+  margin: 150px;
+  background-color: rgb(223, 203, 248);
+}
+form {
+  background-color: rgb(209, 199, 226);
+}
